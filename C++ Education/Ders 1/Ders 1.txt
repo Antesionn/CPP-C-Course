@@ -1,0 +1,11 @@
+*C de printf gibi fonksiyonları kullanabilmek için <stdio.h> kütüphanesini 
+ dahil ediyorduk. C++ da <iostream> kullanılıyor.
+
+*C++ da %d %s gibi şeylere gerek yoktur.
+
+*Atanan adresler sonradan değiştirilemez bu yüzden pointer kullanırız.
+
+*Değerleri ram de tutulsa da normal adresler ram de pointerlar register da 
+tutulur. 
+
+*Pointer = Dynamic valuable

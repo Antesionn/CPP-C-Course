@@ -1,0 +1,15 @@
+*pointerla işin bittikten sonra 
+delete *p; ve p = NULL; yap.
+
+sadece *p; yaparsan olmaz adrese rastgele bişey atar.
+
+sadece p = NULL; yaparsan olmaz adresi siler ancak veri kalır.
+
+Bir fonksiyonun içinde pointer kullanırsan o fonksiyonda pointerı 
+silmelisin de yoksa 1000 kere çağırsan 1000 kere bellek yeri tutar.
+
+Normal değişkende silmeye gerek yoktur başına static yazmadığın sürece
+silinir.
+
+template <typename X>
+fonksiyondan önce kullanılır ne yazarsan yaz veri tipi nedir onu analiz eder.
